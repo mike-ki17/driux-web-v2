@@ -28,7 +28,7 @@ const Hero = () => {
             <span className="text-sm font-medium text-blue-300">Transformación Digital</span>
           </div>
           
-          <img src="../public/logotipo.png" alt="" className='mx-auto w-32' />
+          <img src="../public/logotipo.png" alt="" className='mx-auto' />
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
             <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
               Lleva tu negocio
