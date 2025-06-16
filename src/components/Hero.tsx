@@ -4,7 +4,7 @@ import logo from '../../public/logotipo.png';
 const Hero = () => {
   const handleWhatsAppContact = () => {
     const message = encodeURIComponent("¡Hola! Me interesa conocer más sobre sus servicios digitales para mi negocio. ¿Podrían brindarme más información?");
-    window.open(`https://wa.me/573227173488?text=${message}`, '_blank');
+    window.open(`https://wa.me/573105879386?text=${message}`, '_blank');
   };
 
   const scrollToPlans = () => {

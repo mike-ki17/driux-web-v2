@@ -1,5 +1,5 @@
-import ServiceCard from './ServiceCard';
-import { Globe, ShoppingCart, BarChart3, Calendar } from 'lucide-react';
+import ServiceCard from "./ServiceCard";
+import { Globe, ShoppingCart, BarChart3, Calendar } from "lucide-react";
 
 const ServicesSection = () => {
   const serviceCategories = [
@@ -13,34 +13,43 @@ const ServicesSection = () => {
           price: "$250.000",
           level: "Básico",
           levelColor: "bg-green-500",
-          description: "Página informativa responsive perfecta para iniciar tu presencia digital",
+          description:
+            "Página informativa responsive perfecta para iniciar tu presencia digital",
           features: [
-            "Pagina web con diseño responsive profesional",
+            "Página web compacta de alto impacto con 4–5 secciones clave",
+            "Diseño responsive y moderno",
             "Botón de WhatsApp integrado",
-            "Mapa de ubicación",
-            "Formulario de contacto",
-            "Dominio y hosting 1 año",
-            "1 mes de mantenimiento incluido"
+            "Mapa de ubicación (Google Maps)",
+            "Formulario de contacto básico",
+            "Dominio y hosting por 1 año",
+            "Incluye 1 mes gratis de mantenimiento. Después, es necesario un plan mensual para mantener tu web activa y segura.",
           ],
-          ideal: "Negocios nuevos o marcas que buscan destacar online."
+          ideal:
+            "Negocios nuevos, servicios personales, emprendedores o marcas que necesitan estar en línea de forma rápida y económica.",
+          popular: false,
         },
         {
           name: "Vitrina Digital Premium",
           price: "$280.000",
           level: "Intermedio",
           levelColor: "bg-yellow-500",
-          description: "Showcase profesional para mostrar tus productos y servicios",
+          description:
+            "Showcase profesional para mostrar tus productos y servicios",
           features: [
-            "Pagina web con diseño responsive profesional",
+            "Página web con diseño responsive y moderno",
             "Galería de imágenes optimizada",
-            "Catálogo de servicios/productos",
-            "SEO local optimizado",
-            "Formulario de contacto avanzado",
-            "Dominio y hosting 1 año",
+            "Sección de servicios o productos (tipo catálogo básico)",
+            "Formulario de contacto con validación",
+            "Optimización SEO local básica",
+            "Botón de contacto directo por WhatsApp",
+            "Dominio y hosting por 1 año",
+            "Incluye 1 mes gratis de mantenimiento. Después, es necesario un plan mensual para mantener tu web activa y segura.",
           ],
-          ideal: "Negocios con productos físicos o portafolio visual"
-        }
-      ]
+          ideal:
+            "Negocios con productos físicos, marcas personales, portafolios visuales, salones de belleza, estudios creativos o tiendas que aún no venden online.",
+          popular: true,
+        },
+      ],
     },
     {
       title: "Venta y Promoción Online",
@@ -52,17 +61,21 @@ const ServicesSection = () => {
           price: "$320.000",
           level: "Intermedio",
           levelColor: "bg-yellow-500",
-          description: "Muestra y vende tus productos con un catálogo interactivo",
+          description:
+            "Muestra y vende tus productos con un catálogo interactivo",
           features: [
-            "Pagina web con catálogo interactivo",
-            "Página de productos con filtros",
-            "Galería optimizada",
-            "Carga básica de productos",
-            "Contacto directo por WhatsApp",
-            "Hosting y dominio 1 año",
-            "Panel de administración"
+            "Sitio web con catálogo visual e intuitivo",
+            "Página de productos con filtros simples",
+            "Galería de imágenes optimizada",
+            "Carga básica de productos (hasta 30)",
+            "Contacto directo por WhatsApp desde cada producto",
+            "Panel de administración básico para gestionar productos",
+            "Hosting y dominio por 1 año",
+            "Incluye 1 mes gratis de mantenimiento. Después, es necesario un plan mensual para mantener tu web activa y segura.",
           ],
-          ideal: "Ferreterías, librerías, panaderías, ropa"
+          ideal:
+            "Ferreterías, librerías, panaderías, tiendas de ropa u otros negocios que venden presencialmente y quieren destacar en línea.",
+          popular: false,
         },
         {
           name: "Ecommerce Lite",
@@ -71,33 +84,36 @@ const ServicesSection = () => {
           levelColor: "bg-red-500",
           description: "Tienda online completa para vender directamente",
           features: [
-            "Tienda online profesional",
-            "Carrito de compras simple",
-            "Hasta 50 productos",
-            "Gestion de inventario básico",
+            "Sitio web ecommerce responsive",
+            "Carrito de compras básico",
+            "Gestión de hasta 50 productos",
+            "Inventario básico con control de stock",
             "Checkout por WhatsApp",
-            "Panel de administración",
-            "Dominio y hosting 1 año",
+            "Panel de administración sencillo",
+            "Hosting y dominio por 1 año",
+            "Incluye 1 mes gratis de mantenimiento. Después, es necesario un plan mensual para mantener tu web activa y segura.",
           ],
-          ideal: "Negocios que venden por catálogo o redes"
+          ideal:
+            "Emprendimientos que venden por catálogo, redes sociales o quieren empezar a vender online sin plataformas externas.",
+          popular: true,
         },
-        {
-          name: "Combo Delivery Completo",
-          price: "$450.000",
-          level: "Avanzado",
-          levelColor: "bg-red-500",
-          description: "Solución completa para restaurantes y delivery",
-          features: [
-            "Menú interactivo digital",
-            "Sistema de pedidos online",
-            "Bot de WhatsApp automático",
-            "Panel de administración",
-            "Integración con delivery",
-            "Reportes de ventas"
-          ],
-          ideal: "Restaurantes, comidas rápidas, reposterías"
-        }
-      ]
+        // {
+        //   name: "Combo Delivery Completo",
+        //   price: "$450.000",
+        //   level: "Avanzado",
+        //   levelColor: "bg-red-500",
+        //   description: "Solución completa para restaurantes y delivery",
+        //   features: [
+        //     "Desarrollo web personalizado.",
+        //     "Menú digital navegable.",
+        //     "Formulario o sistema de pedidos",
+        //     "Integración básica con WhatsApp",
+        //     "Integración con delivery",
+        //     "Reportes de ventas"
+        //   ],
+        //   ideal: "Restaurantes, comidas rápidas, reposterías"
+        // }
+      ],
     },
     {
       title: "Gestión Interna y Control",
@@ -111,14 +127,18 @@ const ServicesSection = () => {
           levelColor: "bg-red-500",
           description: "Sistema completo de gestión empresarial",
           features: [
-            "Sistema de facturación completo",
-            "CRM integrado",
+            "Facturación interna completa",
+            "CRM básico integrado",
             "Reportes de ventas detallados",
-            "Análisis de rendimiento",
-            "Backups automáticos",
-            "Panel de control avanzado"
+            "Análisis de rendimiento simple",
+            "Panel de control personalizado",
+            "Backups automáticos semanales",
+            "Hosting y dominio por 1 año",
+            "El servicio incluye 1 mes de mantenimiento gratuito. Para mantener el funcionamiento, hosting activo y soporte técnico, se requiere suscripción mensual posterior.",
           ],
-          ideal: "Negocios con flujo diario de ventas"
+          ideal:
+            "Negocios que manejan muchos productos, ventas constantes y desean controlar su operación diaria",
+          popular: false,
         },
         {
           name: "Admin Lite",
@@ -127,32 +147,38 @@ const ServicesSection = () => {
           levelColor: "bg-yellow-500",
           description: "Gestión simplificada para pequeños negocios",
           features: [
-            "Inventario simple y efectivo",
-            "Alertas de stock bajo",
-            "Facturación rápida",
-            "Reportes básicos",
-            "Backup semanal",
-            "Interfaz intuitiva"
+            "Gestión básica de inventario",
+            "Alertas manuales de stock bajo",
+            "Facturación interna simple",
+            "Reportes básicos de ventas",
+            "Backup semanal automático",
+            "Interfaz web clara y fácil de usar",
+            "Hosting y dominio por 1 año",
+            "El servicio incluye 1 mes de mantenimiento gratuito. Para mantener el funcionamiento, hosting activo y soporte técnico, se requiere suscripción mensual posterior.",
           ],
-          ideal: "Ferreterías, papelerías, microempresas"
+          ideal:
+            "Negocios que necesitan registrar productos, emitir facturas básicas y visualizar reportes",
+          popular: false,
         },
         {
           name: "CRM Solo",
-          price: "$480.000",
+          price: "$320.000",
           level: "Intermedio",
           levelColor: "bg-yellow-500",
           description: "Gestión de clientes profesional",
           features: [
-            "Gestión completa de clientes",
-            "Historial de interacciones",
+            "Registro y edición de clientes",
+            "Historial básico de contacto",
             "Exportación de datos",
-            "Seguimiento de leads",
-            "Recordatorios automáticos",
-            "Dashboard personalizado"
+            "Búsqueda rápida por nombre o teléfono",
+            "Recordatorios manuales por fecha",
+            "Hosting y dominio por 1 año",
+            "El servicio incluye 1 mes de mantenimiento gratuito. Para mantener el funcionamiento, hosting activo y soporte técnico, se requiere suscripción mensual posterior.",
           ],
-          ideal: "Barberías, asesores, negocios que fidelizan"
-        }
-      ]
+          ideal: "Asesorias, servicios con clientes recurrentes.",
+          popular: false,
+        },
+      ],
     },
     {
       title: "Servicios Especializados",
@@ -171,9 +197,11 @@ const ServicesSection = () => {
             "Listado de horarios libres",
             "Gestión de personal",
             "Panel de administración",
-            "Recordatorios automáticos"
+            "Recordatorios automáticos",
+            "Este servicio cuenta con 1 mes gratuito de mantenimiento. Para mantener operativos el hosting, soporte y actualizaciones, se requiere plan mensual.",
           ],
-          ideal: "Barberías que necesitan agendamiento digital"
+          ideal: "Barberías que necesitan agendamiento digital",
+          popular: false,
         },
         {
           name: "Sistema de Reservas WhatsApp",
@@ -187,16 +215,21 @@ const ServicesSection = () => {
             "Confirmación automática",
             "Gestión de cancelaciones",
             "Reportes de ocupación",
-            "Panel administrativo"
+            "Panel administrativo",
+            "Este servicio cuenta con 1 mes gratuito de mantenimiento. Para mantener operativos el hosting, soporte y actualizaciones, se requiere plan mensual.",
           ],
-          ideal: "Servicios de citas y reservas"
-        }
-      ]
-    }
+          ideal: "Servicios de citas y reservas",
+          popular: false,
+        },
+      ],
+    },
   ];
 
   return (
-    <section id="services" className="py-20 px-6 bg-gray-900 relative overflow-hidden">
+    <section
+      id="services"
+      className="py-20 px-6 bg-gray-900 relative overflow-hidden"
+    >
       {/* Background decoration */}
       <div className="absolute inset-0">
         <div className="absolute top-0 left-1/4 w-64 h-64 bg-blue-500/5 rounded-full blur-3xl"></div>
@@ -211,17 +244,22 @@ const ServicesSection = () => {
             </span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Soluciones digitales diseñadas específicamente para cada tipo de negocio
+            Soluciones digitales diseñadas específicamente para cada tipo de
+            negocio
           </p>
         </div>
 
         {serviceCategories.map((category, categoryIndex) => (
           <div key={categoryIndex} className="mb-20">
             <div className="flex items-center gap-4 mb-12">
-              <div className={`p-3 rounded-xl bg-gradient-to-r ${category.color} shadow-lg`}>
+              <div
+                className={`p-3 rounded-xl bg-gradient-to-r ${category.color} shadow-lg`}
+              >
                 <category.icon className="h-8 w-8 text-white" />
               </div>
-              <h3 className="text-3xl font-bold text-white">{category.title}</h3>
+              <h3 className="text-3xl font-bold text-white">
+                {category.title}
+              </h3>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

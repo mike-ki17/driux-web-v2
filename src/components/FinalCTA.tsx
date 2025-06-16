@@ -6,7 +6,7 @@ const FinalCTA = () => {
     const message = encodeURIComponent(
       "¡Hola! Estoy listo para comenzar mi transformación digital. ¿Podrían ayudarme a elegir el mejor plan para mi negocio?"
     );
-    window.open(`https://wa.me/573227173488?text=${message}`, '_blank');
+    window.open(`https://wa.me/573105879386?text=${message}`, '_blank');
   };
 
   const scrollToServices = () => {
@@ -68,10 +68,10 @@ const FinalCTA = () => {
         <div className="bg-gradient-to-r from-yellow-500/20 to-orange-500/20 backdrop-blur-sm border border-yellow-500/30 rounded-2xl p-6 max-w-2xl mx-auto">
           <h3 className="text-xl font-bold text-yellow-300 mb-3">⚡ Oferta por tiempo limitado</h3>
           <p className="text-gray-300 mb-4">
-            Los primeros 20 clientes de este mes reciben <span className="text-yellow-400 font-semibold">50% de descuento</span> en el primer mes de mantenimiento.
+            Algunos planes incluyen <span className="text-yellow-400 font-semibold">1 mes de mantenimiento gratuito.</span>
           </p>
           <div className="text-sm text-yellow-200">
-            ✨ Solo quedan pocos cupos disponibles
+            ✨ ¡Aprovecha ahora!
           </div>
         </div>
 
@@ -83,11 +83,11 @@ const FinalCTA = () => {
           </div>
           <div className="text-center">
             <div className="text-2xl font-bold text-blue-400 mb-2">⚡ Entrega</div>
-            <div className="text-gray-400 text-sm">Tu sitio listo en máximo 7 días</div>
+            <div className="text-gray-400 text-sm">Tu sitio web listo en máximo 14 días</div>
           </div>
           <div className="text-center">
             <div className="text-2xl font-bold text-purple-400 mb-2">🎯 Soporte</div>
-            <div className="text-gray-400 text-sm">Atención personalizada 24/7</div>
+            <div className="text-gray-400 text-sm">Atención personalizada</div>
           </div>
         </div>
       </div>

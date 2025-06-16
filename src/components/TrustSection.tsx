@@ -1,4 +1,3 @@
-import React from 'react';
 import { Zap, MapPin, Palette, Award } from 'lucide-react';
 
 const TrustSection = () => {
@@ -6,7 +5,7 @@ const TrustSection = () => {
     {
       icon: Zap,
       title: "Carga Ultra Rápida",
-      description: "Sitios web optimizados que cargan en menos de 3 segundos, mejorando la experiencia del usuario y el SEO.",
+      description: "Sitios web optimizados para una navegación fluida y mejor posicionamiento en buscadores.",
       color: "from-yellow-400 to-orange-500"
     },
     {
@@ -23,8 +22,8 @@ const TrustSection = () => {
     },
     {
       icon: Award,
-      title: "Experiencia Profesional",
-      description: "Más de 500 proyectos exitosos respaldados por clientes satisfechos en toda Colombia.",
+      title: "Profesionalismo en Cada Detalle",
+      description: "Desarrollos web estratégicos que fortalecen la presencia digital de tu negocio.",
       color: "from-green-400 to-emerald-500"
     }
   ];
@@ -66,7 +65,7 @@ const TrustSection = () => {
         </div>
 
         {/* Stats Section */}
-        <div className="mt-20 bg-gradient-to-r from-blue-500/10 to-purple-500/10 backdrop-blur-sm border border-blue-500/20 rounded-3xl p-8">
+        {/* <div className="mt-20 bg-gradient-to-r from-blue-500/10 to-purple-500/10 backdrop-blur-sm border border-blue-500/20 rounded-3xl p-8">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
             <div>
               <div className="text-4xl font-bold text-blue-400 mb-2">500+</div>
@@ -85,7 +84,7 @@ const TrustSection = () => {
               <div className="text-gray-300">Experiencia</div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

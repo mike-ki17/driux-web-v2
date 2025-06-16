@@ -9,11 +9,13 @@ const MaintenancePlans = () => {
       icon: Shield,
       color: "from-green-500 to-emerald-600",
       features: [
-        "Backups automáticos semanales",
-        "Monitoreo de disponibilidad 24/7",
-        "Actualizaciones de seguridad",
-        "Soporte por email",
-        "Hosting y dominio incluido"
+        "Hosting y dominio incluidos",
+        "Backups automáticos mensuales",
+        "Monitoreo básico de disponibilidad",
+        "Actualizaciones de seguridad esenciales",
+        "Hosting y dominio incluido",
+        "Soporte técnico básico",
+        "1 cambio menor de contenido al mes (texto o imagen)"
       ],
       popular: false
     },
@@ -23,12 +25,13 @@ const MaintenancePlans = () => {
       icon: MessageCircle,
       color: "from-blue-500 to-purple-600",
       features: [
-        "Todo lo del plan Básico",
+        "Todo lo del Plan Básico",
+        "Backups semanales",
         "Soporte prioritario por WhatsApp",
-        "Cambios menores de contenido",
-        "Backups diarios",
-        "Optimización de velocidad",
-        "Reportes mensuales"
+        "Cambios menores ilimitados (contenido o imágenes)",
+        "Optimización básica de velocidad",
+        "Reportes mensuales",
+        "Reporte mensual de rendimiento y visitas"
       ],
       popular: true
     },
@@ -39,8 +42,9 @@ const MaintenancePlans = () => {
       color: "from-purple-500 to-pink-600",
       features: [
         "Todo lo del plan Intermedio",
-        "Cambios de diseño mensuales",
-        "SEO y optimización continua",
+        "Backups diarios",
+        "Cambios estructurales y de diseño (1 al mes)",
+        "Optimización continua de SEO y velocidad",
         "Soporte preferencial",
         "Actualizaciones de funcionalidad",
         "Consultoría digital mensual"
@@ -53,7 +57,7 @@ const MaintenancePlans = () => {
     const message = encodeURIComponent(
       `¡Hola! Me interesa contratar el plan de mantenimiento "${planName}" por ${price} mensual. ¿Podrían brindarme más información?`
     );
-    window.open(`https://wa.me/573227173488?text=${message}`, '_blank');
+    window.open(`https://wa.me/573105879386?text=${message}`, '_blank');
   };
 
   return (
@@ -132,7 +136,7 @@ const MaintenancePlans = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-left">
               <div>
                 <h5 className="font-semibold text-blue-400 mb-2">Seguridad y Rendimiento</h5>
-                <p className="text-gray-300 text-sm">Actualizaciones constantes, backups seguros y monitoreo 24/7 para mantener tu sitio funcionando perfectamente.</p>
+                <p className="text-gray-300 text-sm">Actualizaciones constantes, backups seguros y monitoreo continuo para mantener tu sitio funcionando perfectamente.</p>
               </div>
               <div>
                 <h5 className="font-semibold text-purple-400 mb-2">Hosting y Dominio</h5>
