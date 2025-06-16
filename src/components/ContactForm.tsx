@@ -32,7 +32,7 @@ const ContactForm = () => {
       `¿Podrían brindarme una cotización personalizada?`
     );
     
-    window.open(`https://wa.me/573001234567?text=${whatsappMessage}`, '_blank');
+    window.open(`https://wa.me/573227173488?text=${whatsappMessage}`, '_blank');
   };
 
   const handleFormSubmit = (e: React.FormEvent) => {

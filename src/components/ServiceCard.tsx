@@ -20,7 +20,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ service }) => {
     const message = encodeURIComponent(
       `¡Hola! Me interesa el plan "${service.name}" por ${service.price}. ¿Podrían brindarme más información y ayudarme con la cotización?`
     );
-    window.open(`https://wa.me/573001234567?text=${message}`, '_blank');
+    window.open(`https://wa.me/573227173488?text=${message}`, '_blank');
   };
 
   return (

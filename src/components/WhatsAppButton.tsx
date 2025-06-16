@@ -31,7 +31,7 @@ const WhatsAppButton = () => {
     const message = encodeURIComponent(
       "¡Hola! Vi su página web y me interesa conocer más sobre sus servicios digitales. ¿Podrían ayudarme?"
     );
-    window.open(`https://wa.me/573001234567?text=${message}`, '_blank');
+    window.open(`https://wa.me/573227173488?text=${message}`, '_blank');
     setShowPopup(false);
   };
 

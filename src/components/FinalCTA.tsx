@@ -6,7 +6,7 @@ const FinalCTA = () => {
     const message = encodeURIComponent(
       "¡Hola! Estoy listo para comenzar mi transformación digital. ¿Podrían ayudarme a elegir el mejor plan para mi negocio?"
     );
-    window.open(`https://wa.me/573001234567?text=${message}`, '_blank');
+    window.open(`https://wa.me/573227173488?text=${message}`, '_blank');
   };
 
   const scrollToServices = () => {

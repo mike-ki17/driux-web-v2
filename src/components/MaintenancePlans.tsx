@@ -53,7 +53,7 @@ const MaintenancePlans = () => {
     const message = encodeURIComponent(
       `¡Hola! Me interesa contratar el plan de mantenimiento "${planName}" por ${price} mensual. ¿Podrían brindarme más información?`
     );
-    window.open(`https://wa.me/573001234567?text=${message}`, '_blank');
+    window.open(`https://wa.me/573227173488?text=${message}`, '_blank');
   };
 
   return (
