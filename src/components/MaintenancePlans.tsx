@@ -5,7 +5,7 @@ const MaintenancePlans = () => {
   const plans = [
     {
       name: "Básico",
-      price: "$35.000",
+      price: "$45.000",
       icon: Shield,
       color: "from-green-500 to-emerald-600",
       features: [
@@ -13,7 +13,6 @@ const MaintenancePlans = () => {
         "Backups automáticos mensuales",
         "Monitoreo básico de disponibilidad",
         "Actualizaciones de seguridad esenciales",
-        "Hosting y dominio incluido",
         "Soporte técnico básico",
         "1 cambio menor de contenido al mes (texto o imagen)"
       ],
@@ -21,7 +20,7 @@ const MaintenancePlans = () => {
     },
     {
       name: "Intermedio",
-      price: "$50.000",
+      price: "$60.000",
       icon: MessageCircle,
       color: "from-blue-500 to-purple-600",
       features: [
@@ -37,7 +36,7 @@ const MaintenancePlans = () => {
     },
     {
       name: "Avanzado",
-      price: "$75.000",
+      price: "$80.000",
       icon: Crown,
       color: "from-purple-500 to-pink-600",
       features: [

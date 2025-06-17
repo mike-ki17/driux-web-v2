@@ -9,8 +9,8 @@ const ServicesSection = () => {
       color: "from-blue-500 to-cyan-500",
       services: [
         {
-          name: "Web Rápida",
-          price: "$250.000",
+          name: "Start Web Pro",
+          price: "$270.000",
           level: "Básico",
           levelColor: "bg-green-500",
           description:
@@ -30,7 +30,7 @@ const ServicesSection = () => {
         },
         {
           name: "Vitrina Digital Premium",
-          price: "$280.000",
+          price: "$300.000",
           level: "Intermedio",
           levelColor: "bg-yellow-500",
           description:
@@ -58,7 +58,7 @@ const ServicesSection = () => {
       services: [
         {
           name: "Catálogo Comercial Interactivo",
-          price: "$320.000",
+          price: "$520.000",
           level: "Intermedio",
           levelColor: "bg-yellow-500",
           description:
@@ -79,7 +79,7 @@ const ServicesSection = () => {
         },
         {
           name: "Ecommerce Lite",
-          price: "$500.000",
+          price: "$600.000",
           level: "Avanzado",
           levelColor: "bg-red-500",
           description: "Tienda online completa para vender directamente",
@@ -122,7 +122,7 @@ const ServicesSection = () => {
       services: [
         {
           name: "Control Empresarial",
-          price: "$420.000",
+          price: "$750.000",
           level: "Avanzado",
           levelColor: "bg-red-500",
           description: "Sistema completo de gestión empresarial",
@@ -142,7 +142,7 @@ const ServicesSection = () => {
         },
         {
           name: "Admin Lite",
-          price: "$300.000",
+          price: "$400.000",
           level: "Intermedio",
           levelColor: "bg-yellow-500",
           description: "Gestión simplificada para pequeños negocios",
@@ -162,7 +162,7 @@ const ServicesSection = () => {
         },
         {
           name: "CRM Solo",
-          price: "$320.000",
+          price: "$450.000",
           level: "Intermedio",
           levelColor: "bg-yellow-500",
           description: "Gestión de clientes profesional",
@@ -187,12 +187,13 @@ const ServicesSection = () => {
       services: [
         {
           name: "AgendaBarber",
-          price: "$320.000",
+          price: "$620.000",
           level: "Especializado",
           levelColor: "bg-purple-500",
           description: "Sistema de reservas especializado para barberías",
           features: [
             "Sistema de reservas inteligente",
+            "Diseño personalizado",
             "WhatsApp automático",
             "Listado de horarios libres",
             "Gestión de personal",
@@ -205,7 +206,7 @@ const ServicesSection = () => {
         },
         {
           name: "Sistema de Reservas WhatsApp",
-          price: "$350.000",
+          price: "$550.000",
           level: "Especializado",
           levelColor: "bg-purple-500",
           description: "Automatización completa de reservas por WhatsApp",
