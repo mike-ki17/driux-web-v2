@@ -29,7 +29,7 @@ const ServicesSection = () => {
           popular: false,
         },
         {
-          name: "Vitrina Digital Premium",
+          name: "Stand Digital",
           price: "$300.000",
           level: "Intermedio",
           levelColor: "bg-yellow-500",
@@ -161,7 +161,7 @@ const ServicesSection = () => {
           popular: false,
         },
         {
-          name: "CRM Solo",
+          name: "Driux CRM",
           price: "$450.000",
           level: "Intermedio",
           levelColor: "bg-yellow-500",
